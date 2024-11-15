@@ -7,11 +7,11 @@ DataVerse is a web-based data extraction tool that enables users to harness the 
 - [App Link](#app-link)
 - [Demo Video](#demo-video)
 - [Project Description](#project-description)
+- [Features](#features)
+- [Advanced Features](#advanced-features)
 - [Setup Instructions](#setup-instructions)
 - [Usage Guide](#usage-guide)
 - [API Keys and Environment Variables](#api-keys-and-environment-variables)
-- [Features](features)
-- [Advanced Features](#advanced-features)
 - [Technologies](#technologies)
 - [Project Layout](#project-layout)
 
@@ -26,6 +26,21 @@ Watch a quick demo of DataVerse in action: [Loom Video Demo](https://www.loom.co
 ## Project Description
 
 DataVerse provides a streamlined way to extract relevant information from data files, especially focusing on entities like companies and individuals. Using CSV or Google Sheets as a data source, DataVerse supports customized queries, allowing users to retrieve information such as email addresses, phone numbers, and physical addresses. This project is designed to simplify data retrieval with minimal user input, using AI to automate the process.
+
+## Features
+
+- **CSV and Google Sheets Integration**: Easily upload a CSV file or connect to a Google Sheet for data extraction.
+- **Dynamic Querying**: Define custom queries with placeholders to retrieve specific data, like email addresses or phone numbers.
+- **Automated Search and Extraction**: Automatically fetch relevant information for each entity using integrated APIs.
+- **Result Visualization**: Display extracted results in a table format and download them as a CSV.
+- **Responsive UI**: A clean, user-friendly interface for seamless interaction.
+
+## Advanced Features
+1. Advanced Query Templates: Extract multiple fields in a single prompt, such as “Get the email and address for {company}.”
+2. Google Sheets Output Integration: Write back the extracted data directly to the Google Sheet.
+3. Column Selection: Choose specific columns from your data source for more targeted searches.
+4. Downloadable Results: Easily export your results to a CSV for further analysis.
+5. Customizable Query Templates: Use placeholders like {company} for dynamic data querying.
 
 ## Setup Instructions
 
@@ -72,21 +87,6 @@ Ensure the following environment variables are set in your .env file:
 1. Google Sheets API: Store your credentials.json file in the project directory.
 2. SerpAPI and Groq API Keys: Insert your API keys as SERP_API_KEY and GROQ_API_KEY in the .env file.
 These keys enable the search and AI features of the app.
-
-## Features
-
-- **CSV and Google Sheets Integration**: Easily upload a CSV file or connect to a Google Sheet for data extraction.
-- **Dynamic Querying**: Define custom queries with placeholders to retrieve specific data, like email addresses or phone numbers.
-- **Automated Search and Extraction**: Automatically fetch relevant information for each entity using integrated APIs.
-- **Result Visualization**: Display extracted results in a table format and download them as a CSV.
-- **Responsive UI**: A clean, user-friendly interface for seamless interaction.
-
-## Advanced Features
-1. Advanced Query Templates: Extract multiple fields in a single prompt, such as “Get the email and address for {company}.”
-2. Google Sheets Output Integration: Write back the extracted data directly to the Google Sheet.
-3. Column Selection: Choose specific columns from your data source for more targeted searches.
-4. Downloadable Results: Easily export your results to a CSV for further analysis.
-5. Customizable Query Templates: Use placeholders like {company} for dynamic data querying.
 
 ## Technologies
 1. Flask for the web interface
