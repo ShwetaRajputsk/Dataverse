@@ -12,6 +12,8 @@ DataVerse is a web-based data extraction tool that enables users to harness the 
 
 ## Table of Contents
 
+- [App Link](#app-link)
+- [Demo Video](#demo-video)
 - [Project Description](#project-description)
 - [Setup Instructions](#setup-instructions)
 - [Usage Guide](#usage-guide)
@@ -19,6 +21,14 @@ DataVerse is a web-based data extraction tool that enables users to harness the 
 - [Optional Features](#optional-features)
 - [Technologies](#technologies)
 - [Project Layout](#project-layout)
+
+## App Link
+
+Access the hosted app here: [DataVerse on Render]((https://dataverse-4.onrender.com))
+
+## Demo Video
+
+Watch a quick demo of DataVerse in action: [Loom Video Demo](https://www.loom.com/share/your-video-id)
 
 ## Project Description
 
