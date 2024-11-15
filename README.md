@@ -70,7 +70,7 @@ DataVerse provides a streamlined way to extract relevant information from data f
           
 ## Usage Guide
 1. Upload Data: Start by uploading a CSV file or linking to a Google Sheet.
-2. Define Your Query: Enter a query like "Find the email address of {company}" using {} for placeholders to represent the variable data points.
+2. Define Your Query: Enter a query with a placeholder in {}, like "Find the email address of {company}". For example, if the placeholder is {company}, the query should be structured as "Find the email address of {company}". This allows DataVerse to search for the email addresses of each company listed in the specified column.
 3. Choose Columns and Run Query: Select the column you want to search, then click "Run Query" to extract information.
 4. Download Results: When ready, download the extracted results as a CSV file.
 
