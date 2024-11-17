@@ -17,11 +17,11 @@ DataVerse is a web-based data extraction tool that enables users to harness the 
 
 ## App Link
 
-Access the hosted app here: [DataVerse on Render](https://dataverse-4.onrender.com)
+Access the hosted app here: [DataVerse](https://dataverse-4.onrender.com)
 
 ## Demo Video
 
-Watch a quick demo of DataVerse in action: [Loom Video Demo](https://www.loom.com/share/your-video-id)
+Watch a quick demo of DataVerse in action: [Video Demo](https://youtu.be/PWpB-KmLVZk)
 
 ## Project Description
 
